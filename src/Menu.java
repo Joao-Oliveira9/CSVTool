@@ -1,6 +1,6 @@
 public class Menu {
 
-    private static Inspector inspector;
+    public static Inspector inspector;
 
 
     public Menu(){
