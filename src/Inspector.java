@@ -13,7 +13,7 @@ public class Inspector {
             String line = bfr.readLine();
 
             if(line != null){
-                headers = line.split(",");
+                headers = line.split("[,|;\\t]");
             }
 
             while(line !=null){
